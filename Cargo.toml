@@ -1,0 +1,12 @@
+[package]
+name = "audio-dac-code"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+src4392 = {path = "../src4392_rs"}
+ad1955 = {path = "../ad1955"}
+rppal = {version = "0.14.1", features = ["hal"]}
+crossbeam = "0.8.2"
